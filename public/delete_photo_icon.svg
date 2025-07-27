@@ -1,0 +1,28 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Photo frame -->
+  <rect x="20" y="25" width="35" height="30" rx="2" fill="#f0f0f0" stroke="#333" stroke-width="2"/>
+  
+  <!-- Photo content - mountain scene -->
+  <path d="M22 45 L30 35 L38 42 L45 38 L53 50 L22 50 Z" fill="#87ceeb"/>
+  <circle cx="45" cy="32" r="3" fill="#ffd700"/>
+  <path d="M22 45 L28 40 L35 45 L42 42 L48 47 L53 45 L53 50 L22 50 Z" fill="#90EE90"/>
+  
+  <!-- Trash can body -->
+  <rect x="60" y="50" width="18" height="22" rx="1" fill="#dc3545" stroke="#a71e2a" stroke-width="1.5"/>
+  
+  <!-- Trash can lid -->
+  <ellipse cx="69" cy="48" rx="12" ry="2" fill="#dc3545" stroke="#a71e2a" stroke-width="1.5"/>
+  
+  <!-- Trash can handle -->
+  <path d="M64 48 L64 45 Q64 43 66 43 L72 43 Q74 43 74 45 L74 48" 
+        fill="none" stroke="#a71e2a" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Trash lines -->
+  <line x1="65" y1="55" x2="65" y2="67" stroke="#a71e2a" stroke-width="1.5"/>
+  <line x1="69" y1="55" x2="69" y2="67" stroke="#a71e2a" stroke-width="1.5"/>
+  <line x1="73" y1="55" x2="73" y2="67" stroke="#a71e2a" stroke-width="1.5"/>
+  
+  <!-- X mark overlay on photo -->
+  <line x1="25" y1="30" x2="50" y2="50" stroke="#ff0000" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="30" x2="25" y2="50" stroke="#ff0000" stroke-width="3" stroke-linecap="round"/>
+</svg>
